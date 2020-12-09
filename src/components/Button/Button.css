@@ -1,0 +1,24 @@
+
+
+.Button-container{
+    background:white;
+    border:1px solid black;
+    border-radius:5px;
+    color:black;
+    padding:10px;
+    cursor:pointer;
+    margin-right:5px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px 100px;
+    background:rgba(251,153,102,0.2);
+}
+
+.Button-container:hover{
+    background-color:orange;
+}
+.Button-container:active{
+    background-color:#C1693C;
+}
