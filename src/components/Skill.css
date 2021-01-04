@@ -90,16 +90,29 @@
     width:100%;
     margin: 0 auto;
     margin-bottom:35px;
-
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
 }
 
+.pf1:hover{
+    opacity:0.6;
+    transition:		all 0.2s ease;
+    background-color: rgb(38, 38, 38);
+    color:white;
+}
 
 .pf1{
     border:1px solid black;
-    width:70%;
-    height:400px;
+    width:35%;
+    height:auto;
     margin-bottom:40px;
-    margin: 10px auto;
+    margin: 20px auto;
+    padding-bottom:5px;
+}
+
+.pf1 p{
+    font-size: large;
 }
 
 
@@ -168,6 +181,9 @@
     .portfolio{
         width:100%;
     }
+    .pf1{
+        width:90%;
+    }
     .portfolio-title{
         margin-bottom:35px;
     }
@@ -207,9 +223,13 @@
     .portfolio{
         width:100%;
     }
+    .pf1{
+        width:90%;
+    }
     .portfolio-title{
         margin-bottom:35px;
     }
+
 }
 
 
@@ -244,6 +264,9 @@
     }
     .portfolio{
         width:100%;
+    }
+    .pf1{
+        width:90%;
     }
     .portfolio-title{
         margin-bottom:35px;

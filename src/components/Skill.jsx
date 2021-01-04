@@ -1,6 +1,8 @@
 import React from 'react';
 import './Skill.css';
 import Icon from './titingLIFE.jpeg';
+import Icon2 from './board.png';
+import Icon3 from './roulette.png';
 
  const Skill = (props)=>{
      return(
@@ -54,6 +56,10 @@ import Icon from './titingLIFE.jpeg';
                                 <td>redux</td>
                                 <td>1年</td>
                             </tr>
+                            <tr>
+                                <td>vue</td>
+                                <td>1年</td>
+                            </tr>
                         </table>
                     </div>
                 </div>
@@ -64,6 +70,15 @@ import Icon from './titingLIFE.jpeg';
             <div className = "portfolio">
                 <div className = "pf1">
                     <a href = "https://yapiro.github.io/portfolio"><img className = "image-skill" src = {Icon}></img></a>
+                    <p>男のロマンサイト</p>
+                </div>
+                <div className = "pf1">
+                    <a href = "https://yapiro.github.io/tweetapp"><img className = "image-skill" src = {Icon2}></img></a>
+                    <p>vue掲示板</p>
+                </div>
+                <div className = "pf1">
+                    <a href = "https://yapiro.github.io/today-s-wisky"><img className = "image-skill" src = {Icon3}></img></a>
+                    <p>ウイスキールーレット</p>
                 </div>
             </div>
             <div className = "contact">
