@@ -11,8 +11,8 @@ import Icon3 from './roulette.png';
                 <div className = "profile-button profile-button2">
                     <button className = "Button-pro pro2"  onClick= {()=>{props.history.push('/')}}>topページ</button>
                     <button className = "Button-pro pro2"  onClick= {()=>{props.history.push('/Profile')}}>プロフィール</button>
-                    <button className = "Button-pro pro2"  ><a className = "a-link" href = 'https://twitter.com/1m8pseqcODr2idm'>積み上げ</a></button>
-                    <button className = "Button-pro pro2"  onClick= {()=>{props.history.push('/Quiita')}}>Qiita(キータ)</button> 
+                    <button className = "Button-pro pro2"><a className = "a-link" href = 'https://twitter.com/1m8pseqcODr2idm'>積み上げ</a></button>
+                    <button className = "Button-pro pro2"><a className = "a-link" href = 'https://qiita.com/yapiromu123/items/90f5b6b9bdd4c09536d7'>Qiita(キータ)</a></button> 
                 </div> 
                 <div className = "skill-title">
                     <h1>Skill</h1>

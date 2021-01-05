@@ -10,7 +10,7 @@ function Profile(props){
                     <button className = "Button-pro"  onClick= {()=>{props.history.push('/')}}>topページ</button>
                     <button className = "Button-pro"  onClick= {()=>{props.history.push('/Skillportfolio')}}>スキル/制作実績</button>
                     <button className = "Button-pro"  ><a className = "a-link" href = 'https://twitter.com/1m8pseqcODr2idm'>積み上げ</a></button>
-                    <button className = "Button-pro"  onClick= {()=>{props.history.push('/Quiita')}}>Qiita(キータ)</button>
+                    <button className = "Button-pro"><a className = "a-link" href = 'https://qiita.com/yapiromu123/items/90f5b6b9bdd4c09536d7'>Qiita(キータ)</a></button> 
         　　　　　</div>  
                 <h1>Profile</h1>
                 <img className = "image" src = {Icon}></img>

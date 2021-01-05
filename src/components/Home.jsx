@@ -13,7 +13,7 @@ const Home = (props)=>{
                     <button className = "Button-container"  onClick= {()=>{props.history.push('./Profile')}}>プロフィール</button>
                     <button className = "Button-container"  onClick= {()=>{props.history.push('/Skillportfolio')}}>スキル/制作実績</button>
                     <button className = "Button-container"  ><a className = "a-link" href = 'https://twitter.com/1m8pseqcODr2idm'>積み上げ</a></button>
-                    <button className = "Button-container"  onClick= {()=>{props.history.push('/Quiita')}}>Qiita(キータ)</button>
+                    <button className = "Button-container"><a className = "a-link" href = 'https://qiita.com/yapiromu123/items/90f5b6b9bdd4c09536d7'>Qiita(キータ)</a></button>
                 </div>    
             </div>
              <div className = "contact"> 
